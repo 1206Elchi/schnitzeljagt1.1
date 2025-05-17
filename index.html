@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rätsel des Bösen</title>
+<style>
+  body {
+    background-color: #111;
+    color: #eee;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 40px;
+    line-height: 1.6;
+  }
+  .hint-word {
+    color: #d22;
+    cursor: pointer;
+    border-bottom: 1px dashed #d22;
+    position: relative;
+  }
+  .tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 8px;
+    padding: 6px 10px;
+    background: #330000;
+    color: #f88;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  .hint-word:hover .tooltip {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .container {
+    max-width: 700px;
+    margin: auto;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Der Ruf des Bösen</h1>
+  <p>
+    So, du wagst es, mein <span class="hint-word">Reich
+      <span class="tooltip">Y</span>
+    </span> zu betreten?  
+    Nur die <span class="hint-word">Mutigen
+      <span class="tooltip">ycA</span>
+    </span> werden den Weg finden.  
+    Hinter jedem <span class="hint-word">Schleier
+      <span class="tooltip">4YGMtX</span>
+    </span> verbirgt sich das Verborgene.
+  </p>
+  <p>Füge die Zeichen zusammen und du erhältst den Schlüssel zu meinem zweiten Domizil.</p>
+</div>
+</body>
+</html>
